@@ -1,0 +1,46 @@
+.HomeTitle {
+    color: white;
+    margin-top: 250px;
+    font-size: 40pt;
+    font-family: "Verdana";
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+
+.HomeSubTitle {
+    font-size: 20pt;
+    font-family: "Verdana";
+    color: #eee;
+    text-align: center;
+}
+
+.HomeHeadings {
+    background-color: #000000aa;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    text-align: center;
+}
+
+.HomeHeadings.skew {
+    transform: skewX(-10deg);
+}
+
+.HomeHeadings .unskew {
+    transform: skewX(10deg);
+}
+
+.Home {
+    position: relative;
+    height: 100%;
+    background-image: url("../assets/bg.jpg");
+    background-size: cover;
+}
+
+.ExplorerButton {
+    margin: 30px;
+    pointer-events: all;
+}

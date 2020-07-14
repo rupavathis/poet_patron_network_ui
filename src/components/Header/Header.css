@@ -1,0 +1,19 @@
+.headerBar {
+    background-color: #530e85;
+    padding: 0 20px;
+    height: 40px;
+    z-index: 1;
+    display: flex;
+}
+
+.MuiIconButton-colorSecondary.menuIconHeader {
+    color: white;
+    margin-top: -5px;
+}
+
+.headerBreadCrumbs {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding: 20px;
+}

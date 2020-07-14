@@ -1,0 +1,57 @@
+.flex-item-menu {
+    /* width: 80px; */
+    /* min-width: 80px; */
+    /* border-radius: 4px; */
+    display: flex;
+    /*flex: 1;*/
+   /* background-color: antiquewhite; */
+    transition: all 0.8s ease-in-out;
+    margin-left: -250px;
+    flex-direction: column;
+    padding: 0;
+    min-width: 250px;
+    width: 250px;
+    background-color: #333;
+}
+
+.flex-item-menu.expanded {
+    margin-left: 0;
+    flex-direction: column;
+}
+
+.menu-container {
+    width: 100%;
+   /* list-style-type: none; */   
+   
+}
+
+.menu-list a.is-active.menu {
+    background-color: rgb(22, 50, 95);
+}
+
+.menu-list a:hover.menu {
+    background-color: #ffffff44;
+    text-decoration: none;    
+}
+
+.menu-list .menu {
+    /* text-align: right; */
+    padding: 0;
+}
+
+.menu.expanded {
+    text-align: left;
+    display: block;
+}
+
+.menu .MuiListItem-button .MuiListItemIcon-root svg, 
+.menu .MuiListItem-button .MuiListItemText-root {
+    fill: #cccccc;
+    color: #cccccc;
+}
+
+.is-active.menu .MuiListItem-button .MuiListItemIcon-root svg, 
+.is-active.menu .MuiListItem-button .MuiListItemText-root {
+    fill: #ffffff;
+    color: #ffffff;
+}

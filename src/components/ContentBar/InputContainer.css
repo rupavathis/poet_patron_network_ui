@@ -1,0 +1,42 @@
+.InputContainer {
+    display: flex;
+    margin-bottom: -38px;
+    flex-direction: column;
+    transition: all 1s ease-in-out;
+    padding: 10px 20px 0px;
+}
+
+.formControls {
+    display: flex;
+    flex-direction: row;
+}
+
+.itemsLabelFlex {
+    /*flex: 1;*/
+    align-self: flex-end;
+    text-align: right;
+    min-width: 200px;
+    padding: 0 15px;
+}
+
+.itemsFlex {
+    /*flex: 6;*/
+    margin: 0px;
+    min-width: 500px;
+    align-items: baseline;
+}
+.itemsFlexStatus {
+    margin: 0px;
+    min-width: 200px;
+    align-items: baseline;
+}
+
+.findButton {
+    margin-left: 200px;
+    padding: 10px 10px 0 10px;
+}
+
+.marginNormal div {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

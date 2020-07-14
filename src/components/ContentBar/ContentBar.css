@@ -1,0 +1,34 @@
+.LayoutContainer {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    position: relative;
+}
+
+.LayoutContainer-Input {
+
+    padding: 0px;
+    /*flex: 1;*/
+    /* overflow-y: auto;
+    flex: 1;
+    overflow-x: hidden; */
+    height: 100%;
+}
+
+.collapseFind {
+  position: absolute;
+}
+
+.LayoutContainer-Output {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.InputContainerContent {
+   /* height: 0px;
+    padding: 20px; */
+}
+
+.OutputContainerContent {
+    height: 0px;
+}
